@@ -8,7 +8,9 @@
     todo-comments.enable = true; # Shows the TODO comments in a colorful way
     nvim-autopairs = {
       enable = true; # Bracket autoclose plugin
-      checkTs = true;
+      settings = {
+				checkTs = true;
+			};
     };
 		# nvim-cmp setup
 		cmp.enable = true;
