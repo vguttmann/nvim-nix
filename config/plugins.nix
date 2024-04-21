@@ -49,11 +49,11 @@
       keymaps = {
 				"<leader>gf" = {
 					action = "git_files";
-					desc = "Telescope git files";
+					options.desc = "Telescope git files";
 				};
 				"<leader>ff" = {
 					action = "find_files";
-					desc = "Telescope files generally";
+					options.desc = "Telescope files generally";
 				};
       };
     };
