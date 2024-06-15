@@ -8,7 +8,9 @@
     todo-comments.enable = true; # Shows the TODO comments in a colorful way
     nvim-autopairs = {
       enable = true; # Bracket autoclose plugin
-      checkTs = true;
+      settings = {
+				checkTs = true;
+			};
     };
 		# nvim-cmp setup
 		cmp.enable = true;
@@ -49,11 +51,11 @@
       keymaps = {
 				"<leader>gf" = {
 					action = "git_files";
-					desc = "Telescope git files";
+					options.desc = "Telescope git files";
 				};
 				"<leader>ff" = {
 					action = "find_files";
-					desc = "Telescope files generally";
+					options.desc = "Telescope files generally";
 				};
 				"<leader>gg" = {
 					action = "live_grep";
