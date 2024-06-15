@@ -55,6 +55,10 @@
 					action = "find_files";
 					desc = "Telescope files generally";
 				};
+				"<leader>gg" = {
+					action = "live_grep";
+					desc = "Telescope live grep";
+				};
       };
     };
   }; 
