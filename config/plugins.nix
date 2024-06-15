@@ -59,7 +59,7 @@
 				};
 				"<leader>gg" = {
 					action = "live_grep";
-					desc = "Telescope live grep";
+					options.desc = "Telescope live grep";
 				};
       };
     };
