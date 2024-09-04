@@ -43,6 +43,7 @@
 				# pylsp.enable = true; # Python LSP
 				clangd.enable = true; # C/C++ LSP
 				java-language-server.enable = true; # Java LSP
+				templ.enable = true; # Templ (Go HTML templating) LSP
       };
     };
 		lsp-format.enable = true;
