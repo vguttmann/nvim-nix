@@ -43,6 +43,8 @@
 				# pylsp.enable = true; # Python LSP
 				clangd.enable = true; # C/C++ LSP
 				java-language-server.enable = true; # Java LSP
+				ts_ls.enable = true; # TypeScript LSP
+				volar.enable = true; # Vue LSP
       };
     };
 		lsp-format.enable = true;
