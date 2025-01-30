@@ -45,6 +45,7 @@
 				java-language-server.enable = true; # Java LSP
 				ts_ls.enable = true; # TypeScript LSP
 				volar.enable = true; # Vue LSP
+				templ.enable = true; # Templ (Go HTML templating) LSP
       };
     };
 		lsp-format.enable = true;
