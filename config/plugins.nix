@@ -2,7 +2,10 @@
   # extraPlugins = with pkgs; [ vimPlugins.nvim-jdtls ];
   plugins = {
     rainbow-delimiters.enable = true; # This gives every parenthesis a different color
-    treesitter.enable = true; # Fancy Syntax highlighting plugin
+    treesitter = {
+			enable = true; # Fancy Syntax highlighting plugin
+			settings.highlight.enable = true; # actually enabled highlighting
+		};
     comment.enable = true; # Provides easy keybindings to comment a line or multiple lines
     airline.enable = true; # Fancy statusbar
     todo-comments.enable = true; # Shows the TODO comments in a colorful way
