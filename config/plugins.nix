@@ -35,7 +35,7 @@
       enable = true;
       servers = {
 				gopls.enable = true; # Golang LSP
-				rust-analyzer = {
+				rust_analyzer = {
 	  			enable = true; # Rust LSP
 					installRustc = false;
 					installCargo = false;
@@ -45,12 +45,12 @@
 				yamlls.enable = true; # YAML LSP
 				# pylsp.enable = true; # Python LSP
 				clangd.enable = true; # C/C++ LSP
-				java-language-server.enable = true; # Java LSP
 				ts_ls.enable = true; # TypeScript LSP
 				volar.enable = true; # Vue LSP
 				templ.enable = true; # Templ (Go HTML templating) LSP
       };
     };
+		web-devicons.enable = true; # icons in telescope etc.
 		lsp-format.enable = true;
     telescope = {
       enable = true;
