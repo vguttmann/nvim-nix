@@ -47,6 +47,7 @@
 				clangd.enable = true; # C/C++ LSP
 				ts_ls.enable = true; # TypeScript LSP
 				volar.enable = true; # Vue LSP
+				csharp_ls.enable = true; # CSharp LSP
 				templ.enable = true; # Templ (Go HTML templating) LSP
       };
     };
