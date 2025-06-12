@@ -70,5 +70,6 @@
 				};
       };
     };
+		harpoon.enable = true;
   }; 
 }
