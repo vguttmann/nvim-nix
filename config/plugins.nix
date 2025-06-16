@@ -49,6 +49,7 @@
 				volar.enable = true; # Vue LSP
 				csharp_ls.enable = true; # CSharp LSP
 				templ.enable = true; # Templ (Go HTML templating) LSP
+				jdtls.enable = true; # java
       };
     };
 		web-devicons.enable = true; # icons in telescope etc.
