@@ -10,6 +10,19 @@
       };
     }
 
+    { mode = "n"; key = "<Esc>"; action.__raw = "vim.cmd.noh"; }
+
+    { mode = "n"; key = "<leader>ww";
+      action.__raw = ''
+        function()
+          if vim.opt.wrap:get() then
+            vim.cmd.set('nowrap')
+          else
+            vim.cmd.set('wrap')
+          end
+        end
+      ''; }
+
     # harpoon binds
     
     { mode = "n"; key = "<leader>a"; action.__raw = "function() require'harpoon':list():add() end"; }
