@@ -2,7 +2,7 @@
   colorschemes.catppuccin = {
     enable = true;
     settings = {
-			flavour = "frappe";
-		};
+      flavour = "frappe";
+    };
   };
 }
